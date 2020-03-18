@@ -10,7 +10,7 @@ class MountainBike < Bike
     @hourly_rate = 10
   end
 
-  def adjust_suspension
+  def prepare
     puts "Adjusting suspension..."
   end
 

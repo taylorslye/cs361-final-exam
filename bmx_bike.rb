@@ -10,7 +10,7 @@ class BmxBike < Bike
     @hourly_rate = 5
   end
 
-  def adjust_seat
+  def prepare
     puts "Adjusting seat..."
   end
 

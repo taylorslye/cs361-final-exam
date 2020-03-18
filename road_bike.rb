@@ -8,7 +8,7 @@ class RoadBike < Bike
     @daily_rate = 15
   end
 
-  def lubricate_gears
+  def prepare
     puts "Lubricating gears..."
   end
 
