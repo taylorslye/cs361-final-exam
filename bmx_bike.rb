@@ -1,7 +1,7 @@
 require_relative 'tail_pack'
 require_relative 'bike'
 
-class BmxBike < bike
+class BmxBike < Bike
 
   def initialize
     @tail_pack = TailPack.new

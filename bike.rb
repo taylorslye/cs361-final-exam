@@ -1,4 +1,4 @@
-Class bike
+Class Bike
   
 
   def weekly_rate
