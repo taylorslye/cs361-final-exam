@@ -1,7 +1,7 @@
 require_relative 'roll_pack'
 require_relative 'bike'
 
-class MountainBike < bike
+class MountainBike < Bike
 
   def initialize
     @luggage = RollPack.new
