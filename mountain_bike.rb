@@ -1,6 +1,7 @@
 require_relative 'roll_pack'
+require_relative 'bike'
 
-class MountainBike
+class MountainBike < bike
 
   def initialize
     @luggage = RollPack.new
@@ -9,12 +10,12 @@ class MountainBike
     @hourly_rate = 10
   end
 
-  def clean
-    puts "Cleaning..."
-  end
-
   def adjust_suspension
     puts "Adjusting suspension..."
+  end
+
+  def luggage
+    @luggage
   end
 
 end

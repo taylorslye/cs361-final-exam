@@ -1,8 +1,5 @@
 Class bike
   
-  def luggage
-    @luggage
-  end
 
   def weekly_rate
     @weekly_rate
@@ -16,7 +13,8 @@ Class bike
     @hourly_rate
   end
 
-
-
+  def clean
+    puts "Cleaning..."
+  end
 
 end
