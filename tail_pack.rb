@@ -1,11 +1,9 @@
-class TailPack
+require_relative 'pack'
 
-def initialize
-  @cost = 2 # Flat rate per rental
-end
+class TailPack < Pack
 
-def cost
-  @cost
-end
+  def initialize
+    @price = 2 # Flat rate per rental
+  end
 
 end
