@@ -1,5 +1,4 @@
-Class Bike
-  
+class Bike
 
   def weekly_rate
     @weekly_rate
